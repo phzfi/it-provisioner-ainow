@@ -71,6 +71,8 @@ Step 2
 
 ### 3.3. Access the Application
 
+http://localhost:7860
+
 ### 3.4. Run Tests
 
 ### 3.5. IDE Setup and Debugging
