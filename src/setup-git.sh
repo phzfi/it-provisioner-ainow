@@ -2,8 +2,8 @@
 #Setup Git improve compability and reduce developer setup overhead
 
 #TODO please change your name and email
-git config --global user.name "PHZ Developers"
-git config --global user.email "phz@phz.fi"
+git config --global user.name "Opiframe AINow!"
+git config --global user.email "ainow@phz.fi"
 
 #Set PHZ standard git configuration
 git config --global pull.rebase false
