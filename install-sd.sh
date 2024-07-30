@@ -7,4 +7,4 @@ git clone https://github.com/AbdBarho/stable-diffusion-webui-docker.git
 cd stable-diffusion-webui-docker
 
 docker compose --profile download up --build
-docker compose --profile auto up --build
+docker compose --profile auto-cpu up --build
