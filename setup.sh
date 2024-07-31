@@ -35,7 +35,7 @@ arch=x86_64
 sudo apt-key adv --fetch-keys https://developer.download.nvidia.com/compute/cuda/repos/$distro/$arch/3bf863cc.pub
 echo "deb https://developer.download.nvidia.com/compute/cuda/repos/$distro/$arch/ /" | sudo tee /etc/apt/sources.list.d/cuda-$distro-$arch.list
 sudo apt update
-sudo apt-get install -y cuda-toolkit nvidia-gds
+sudo apt-get install -y cuda-toolkit
 
 
 #Install container toolkit
