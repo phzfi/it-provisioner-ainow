@@ -13,6 +13,7 @@ cd ~/workspace/docker/kohya_ss
 
 mkdir -p data/res
 mkdir -p models/vae
+cp "config example.toml" config.toml
 
 python3.10 -v venv venv
 venv/bin/activate
