@@ -12,6 +12,7 @@ test ! -d kohya_ss && git clone https://github.com/bmaltais/kohya_ss
 cd ~/workspace/docker/kohya_ss
 
 mkdir -p data/res
+mkdir -p data/reg
 mkdir -p models/vae
 cp "config example.toml" config.toml
 
